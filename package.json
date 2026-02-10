@@ -1,0 +1,26 @@
+{
+  "name": "css-frameworks-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/main.scss css/main.css --no-source-map",
+    "watch": "sass scss/main.scss css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foadosman/css-frameworks-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Foadosman/css-frameworks-assignment/issues"
+  },
+  "homepage": "https://github.com/Foadosman/css-frameworks-assignment#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.97.3"
+  }
+}
