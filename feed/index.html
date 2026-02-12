@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social UI - Feed</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Social App</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="../feed/index.html">Feed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../profile/index.html">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container py-4">
+        <h1>Feed</h1>
+        <div class="row mb-4">
+            <div class="col-12 col-md-6">
+                <input type="search" class="form-control" placeholder="Search post">
+            </div>
+            <div class="col-12 col-md mt-2 mt-md-0">
+                <select class="form-select">
+                    <option>Newest</option>
+                    <option>Oldest</option>
+                </select>
+            </div>
+        </div>
+        <form class="card p-3 mb-4">
+            <h2 class="h5 mb-3">Create new post</h2>
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" id="title" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="image" class="form-label">Image URL</label>
+                <input type="url" id="image" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="body" class="form-label">Body</label>
+                <textarea id="body" class="form-control" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Post</button>
+        </form>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Post thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">Post title</h5>
+                        <p class="card-text">This is an example</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Post thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">Post title</h5>
+                        <p class="card-text">This is an example</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Post thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">Post title</h5>
+                        <p class="card-text">This is an example</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
+</body>
+</html>

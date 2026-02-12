@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Social App</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../feed/index.html">Feed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../profile/index.html">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container py-4">
+        <h1>Profile</h1>
+        <div class="card p-4 mb-4 text-center">
+            <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Profile-image">
+            <h2 class="h5">Username</h2>
+            <button class="btn btn-orimary-mt3">Follow</button>
+            <div class="d-flex gap-3 mt-3">
+                <div class="text-center">
+                    <div class="fw-bold">123</div>
+                    <div class="text-muted small">Followers</div>
+                </div>
+                <div class="text-center">
+                    <div class="fw-bold">56</div>
+                    <div class="text-muted small">Following</div>
+                </div>
+            </div>
+        </div>
+        <h3 class="h5 mb-3">User posts</h3>
+        <div class="row">
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">My first post</h5>
+                        <p class="card-text">Example content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
+</body>
+</html>
