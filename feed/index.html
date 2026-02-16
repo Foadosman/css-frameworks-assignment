@@ -36,7 +36,7 @@
         <h1>Feed</h1>
         <div class="row mb-4">
             <div class="col-12 col-md-6">
-                <input type="search" class="form-control" placeholder="Search post">
+                <input type="search" class="form-control" placeholder="Search post" name="search">
             </div>
             <div class="col-12 col-md mt-2 mt-md-0">
                 <select class="form-select">
@@ -49,15 +49,15 @@
             <h2 class="h5 mb-3">Create new post</h2>
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
-                <input type="text" id="title" class="form-control" required>
+                <input type="text" id="title" class="form-control" required name="title">
             </div>
             <div class="mb-3">
                 <label for="image" class="form-label">Image URL</label>
-                <input type="url" id="image" class="form-control">
+                <input type="url" id="image" class="form-control" name="image">
             </div>
             <div class="mb-3">
                 <label for="body" class="form-label">Body</label>
-                <textarea id="body" class="form-control" rows="3" required></textarea>
+                <textarea id="body" class="form-control" rows="3" required name="body"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Post</button>
         </form>
