@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="../index.html">Social App</a>
         <button
@@ -34,18 +34,19 @@
     </nav>
     <main class="container py-4">
         <h1>Feed</h1>
-        <div class="row mb-4">
-            <div class="col-12 col-md-6">
+        <div class="row mb-4 justify-content-center">
+            <div class="col-12 col-md-5">
                 <input type="search" class="form-control" placeholder="Search post" name="search">
             </div>
-            <div class="col-12 col-md mt-2 mt-md-0">
+            <div class="col-12 col-md-3 mt-2 mt-md-0">
                 <select class="form-select">
                     <option>Newest</option>
                     <option>Oldest</option>
                 </select>
             </div>
         </div>
-        <form class="card p-3 mb-4">
+        <div class="col-12 col-md-10 col-lg-8 mx-auto">
+        <form class="card p-4 mb-4">
             <h2 class="h5 mb-3">Create new post</h2>
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
@@ -61,10 +62,11 @@
             </div>
             <button type="submit" class="btn btn-primary">Post</button>
         </form>
+        </div>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Post thumbnail">
+                <div class="card post-card h-100">
+                    <img src="https://picsum.photos/400/200" class="card-img-top" alt="Post thumbnail">
                     <div class="card-body">
                         <h5 class="card-title">Post title</h5>
                         <p class="card-text">This is an example</p>
@@ -72,8 +74,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Post thumbnail">
+                <div class="card post-card h-100">
+                    <img src="https://picsum.photos/400/200" class="card-img-top" alt="Post thumbnail">
                     <div class="card-body">
                         <h5 class="card-title">Post title</h5>
                         <p class="card-text">This is an example</p>
@@ -81,8 +83,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Post thumbnail">
+                <div class="card post-card h-100">
+                    <img src="https://picsum.photos/400/200" class="card-img-top" alt="Post thumbnail">
                     <div class="card-body">
                         <h5 class="card-title">Post title</h5>
                         <p class="card-text">This is an example</p>

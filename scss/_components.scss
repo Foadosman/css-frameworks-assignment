@@ -1,0 +1,27 @@
+.navbar .nav-link {
+    transition: all 0.2s ease;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+.navbar .nav-link:hover {
+    background-color: rgba($primary, 0.1);
+}
+
+.post-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba($primary, 0.15);
+}
+
+.btn-primary {
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    transform: translatey(-1px)
+}
